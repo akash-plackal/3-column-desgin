@@ -76,6 +76,24 @@
   border-radius: 0px 9px 9px 0px;
 }
 
+.sedans button:active {
+  background-color: hsl(31, 77%, 52%);
+  box-shadow: 0px 0px 0px 2px inset;
+  color: hsl(0, 0%, 95%);
+}
+
+.suvs button:active {
+  background-color: hsl(184, 100%, 22%);
+  box-shadow: 0px 0px 0px 2px inset;
+  color: hsl(0, 0%, 95%);
+}
+
+.luxury button:active {
+  background-color: hsl(179, 100%, 13%);
+  box-shadow: 0px 0px 0px 2px inset;
+  color: hsl(0, 0%, 95%);
+}
+
 @media (orientation: portrait) {
   .container {
     display: flex;
